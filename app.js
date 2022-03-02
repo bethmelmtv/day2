@@ -1,8 +1,20 @@
-// import functions
+/// grab DOM elements we want to change by id.
+const showButton = document.getElementById('btn');
+const animal = document.getElementById('animalDiv');
+showButton.addEventListener('click', () => {
+///console.log(' show button clicked', 'validate button is connected')
+/// this will remove the hidden class and display you favorite animal.       
+    animal.classList.remove('hidden');
+});
 
-// grab DOM elements
+const showcoloranswer = document.getElementById('colorbtn');
+const color = document.getElementById('favcolor');
+showcoloranswer.addEventListener('click', () => {
+    color.classList.remove('hidden');
+});
 
-// set event listeners 
-    // get user input
-    // use user input to update state 
-    // update DOM to reflect the new state
+const showoccupationanswer = document.getElementById('dreamoccbtn');
+const occupationanswer = document.getElementById('occupation');
+showoccupationanswer.Button.addEventListener('click', () => {
+    occupationanswer.classList.remove('hidden');
+});
