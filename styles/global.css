@@ -23,10 +23,13 @@ body {
 
 }
 
+button {
+    color:orange
+}
 
 
 header {
-    display: flex;
+    display: inline-block;
     justify-content: flex-start;
     background-color: #5AAA95;
     box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -38,8 +41,8 @@ main {
 }
 
 
-footer {
+ /**footer{
     background-color: #5AAA95;
     padding: 10px var(--gutter);
     align-self: stretch;
-}
+} **\
